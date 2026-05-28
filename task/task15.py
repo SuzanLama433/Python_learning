@@ -364,7 +364,7 @@ class Khalti(Payment):
         
         PaymetHistory.add_history("Khalti" ,self.__transaction_id,amount,"paid")
     def refund(self, amount):
-        assert amount<=self.__paid_amount, f"Refund amount exceeds payment"
+        assert amount<=self._paid_amount, f"Refund amount exceeds payment"
         print(f"Khalti refund sucessfully Rs{amount}")
         PaymetHistory.add_history("Khalti",self.__transaction_id,amount,"refund")
     def get_transaction_id(self):

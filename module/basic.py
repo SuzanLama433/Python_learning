@@ -1,5 +1,5 @@
 '''
-====================MODULE=========================
+====================MODULE======================
 
 Module:-- It is a file that contain python code(variable, function, loop, oop) 
 that is useable for other program.

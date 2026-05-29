@@ -1,0 +1,55 @@
+'''
+====================MODULE=========================
+
+Module:-- It is a file that contain python code(variable, function, loop, oop) 
+that is useable for other program.
+
+4 Factors
+
+
+IMPORTANCE of MODEULE:
+
+1.⁠ ⁠Reuseable
+2.⁠ ⁠Code Maintain
+3.⁠ ⁠Debugging
+
+TYPE of MODULE
+
+1.⁠ ⁠Built in Module
+2.⁠ ⁠User define Module
+3.⁠ ⁠External Module
+
+'''
+
+
+print('==========Built in Module========')
+# Pre define by python 
+import random
+a = random.choices([1,2,3], k=2)
+print(a)
+
+import keyword
+print(keyword.kwlist)
+
+import calendar
+print(calendar.calendar(2026))
+print(calendar.month(2025,5))
+
+import datetime 
+print(datetime.datetime.now())
+print(datetime.datetime.now().year)
+print(datetime.datetime.now().month)
+print(datetime.datetime.now().time)
+
+import math
+#from math import sqrt,ceil
+print(math.sqrt(36))
+a=math.radians(30)
+print(math.sin(a))
+print(math.floor(1.455))
+print(math.ceil(3,990))
+print(round(3.1415))
+print(round(3.1415, 1))
+print(dir(math))
+
+

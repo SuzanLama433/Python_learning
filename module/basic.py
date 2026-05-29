@@ -5,6 +5,18 @@ Module:-- It is a file that contain python code(variable, function, loop, oop)
 that is useable for other program.
 
 Scripts,module ,package,library
+package
+folder -->
+       __init__.py
+       module.py
+       module2.py
+       module3.py
+
+library
+folder -
+->package1
+->package2
+->package3
 
 IMPORTANCE of MODEULE:
 

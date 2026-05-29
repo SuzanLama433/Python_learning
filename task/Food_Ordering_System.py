@@ -86,7 +86,6 @@ class PathaoFood(FoodOrder):
 f1 = Foodmandu()
 p1 = PathaoFood()
 
-
 # Polymorphism
 orders = [f1, p1]
 

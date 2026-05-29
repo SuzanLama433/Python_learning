@@ -313,8 +313,6 @@ class Payment(ABC):
         print("Amount ", amount)
         print("=====================================")
         
-        
-
 class PaymetHistory:
     history = []
     

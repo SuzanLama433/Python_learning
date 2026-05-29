@@ -47,7 +47,24 @@ a+ -->write or append and read
 
 # print(f.read())
 # f.write("sujan")
+#f.close()
+# main problem if not close file 
+# 1.data corrupted
+# 2.memory wasted
+
+#with statement
+#do not need to closed file by developer
+
+# with open("FileHandling/msg.txt",'r') as f:
+#       print(f.read())
+
+f= open("Filehandling/msg.txt",'r')
+print(f.read(5))
+f.seek(0)
+print(f.tell())
+print(f.read(6))
 
 
-
-
+f.close()
+import os 
+os.remove("msg.txt")

@@ -9,37 +9,43 @@ that is useable for other program.
 
 IMPORTANCE of MODEULE:
 
-1.⁠ ⁠Reuseable
-2.⁠ ⁠Code Maintain
-3.⁠ ⁠Debugging
+1.Reuseable
+2.Code Maintain
+3.Debugging
 
 TYPE of MODULE
 
-1.⁠ ⁠Built in Module
-2.⁠ ⁠User define Module
-3.⁠ ⁠External Module
+1.Built in Module
+2.User define Module
+3.External Module
 
 '''
-
-
 print('==========Built in Module========')
 # Pre define by python 
 import random
 a = random.choices([1,2,3], k=2)
 print(a)
 
+print("====================================")
+
 import keyword
 print(keyword.kwlist)
+
+print("====================================")
 
 import calendar
 print(calendar.calendar(2026))
 print(calendar.month(2025,5))
+
+print("====================================")
 
 import datetime 
 print(datetime.datetime.now())
 print(datetime.datetime.now().year)
 print(datetime.datetime.now().month)
 print(datetime.datetime.now().time)
+
+print("====================================")
 
 import math
 #from math import sqrt,ceil
@@ -51,5 +57,11 @@ print(math.ceil(3,990))
 print(round(3.1415))
 print(round(3.1415, 1))
 print(dir(math))
+
+print("====================================")
+
+from file import names, show #import file from module
+print(names) 
+show(2,3)
 
 

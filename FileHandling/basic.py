@@ -66,5 +66,5 @@ print(f.read(6))
 
 
 f.close()
-import os 
-os.remove("msg.txt")
+# import os 
+# os.remove("msg.txt") 

@@ -489,7 +489,3 @@ manager1.show_manager_info()
 print("\n===== MRO of Manager Class =====")
 for cls in Manager.__mro__:
     print(cls)
-
-        
-        
-

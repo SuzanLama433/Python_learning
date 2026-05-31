@@ -2,9 +2,9 @@
 Input: "abcabcbb"
 Output: 3
 """
-# Input= "abcabcbb"
-# b = set(Input)
-# print(len(b))
+Input= "abcabcbb"
+b = set(Input)
+print(len(b))
 
 """2. Group Anagrams
 Input:
@@ -17,16 +17,16 @@ Output:
  ['bat']
 ]"""
 
-# Input=["eat", "tea", "tan", "ate", "nat", "bat"]
-# group ={}
-# for i in Input:
-#    key = ''.join(sorted(i))
+Input=["eat", "tea", "tan", "ate", "nat", "bat"]
+group ={}
+for i in Input:
+   key = ''.join(sorted(i))
    
-#    if key not in group:
-#        group[key]=[]
-#    group[key].append(i)
-# result = list(group.values())
-# print(result)
+   if key not in group:
+       group[key]=[]
+   group[key].append(i)
+result = list(group.values())
+print(result)
 
 """Valid Parentheses
 Input: "{[()]}"
@@ -35,12 +35,12 @@ Output: True
 Input: "{[(])}"
 Output: False"""
 
-# Input = input("ente something :")
+Input = input("ente something :")
 
-# if Input=="{[()]}":
-#     print(True)
-# else:
-#     print(False)
+if Input=="{[()]}":
+    print(True)
+else:
+    print(False)
 
 
 """4. Rotate Matrix 90°
@@ -54,64 +54,64 @@ Output:
 8 5 2
 9 6 3"""
 
-# matrix = [
-#     [1,2,3],
-#     [4,5,6],
-#     [7,8,9]
-# ]
+matrix = [
+    [1,2,3],
+    [4,5,6],
+    [7,8,9]
+]
 
-# transposed = list(zip(*matrix))
-# rotated = [list(row[::-1]) for row in transposed]
+transposed = list(zip(*matrix))
+rotated = [list(row[::-1]) for row in transposed]
 
-# for i in rotated:
-#     print(*i)
+for i in rotated:
+    print(*i)
 
 """5. Sudoku Validator
 Given a 9×9 Sudoku board, check if it's valid"""
-# def is_valid_sudoku(board):
-#     row = [set() for _ in range(9)]
-#     cols = [set() for _ in range(9)]
-#     boxes = [set() for _ in range(9)]
+def is_valid_sudoku(board):
+    row = [set() for _ in range(9)]
+    cols = [set() for _ in range(9)]
+    boxes = [set() for _ in range(9)]
     
-#     for r in range(9):
-#         for c in range(9):
-#             val = board[r][c]
+    for r in range(9):
+        for c in range(9):
+            val = board[r][c]
             
-#             if val == ".":
-#                 continue
+            if val == ".":
+                continue
             
-#             # check row
-#             if val in row[r]:
-#                 return False
-#             row[r].add(val)
+            # check row
+            if val in row[r]:
+                return False
+            row[r].add(val)
             
-#             # check column
-#             if val in cols[c]:
-#                 return False
-#             cols[c].add(val)
+            # check column
+            if val in cols[c]:
+                return False
+            cols[c].add(val)
             
-#             # check 3x3 box
-#             box_index = (r // 3) * 3 + (c // 3)
+            # check 3x3 box
+            box_index = (r // 3) * 3 + (c // 3)
             
-#             if val in boxes[box_index]:
-#                 return False
-#             boxes[box_index].add(val)
+            if val in boxes[box_index]:
+                return False
+            boxes[box_index].add(val)
     
-#     return True
+    return True
 
-# board = [
-#     ["5","3",".",".","7",".",".",".","."],
-#     ["6",".",".","1","9","5",".",".","."],
-#     [".","9","8",".",".",".",".","6","."],
-#     ["8",".",".",".","6",".",".",".","3"],
-#     ["4",".",".","8",".","3",".",".","1"],
-#     ["7",".",".",".","2",".",".",".","6"],
-#     [".","6",".",".",".",".","2","8","."],
-#     [".",".",".","4","1","9",".",".","5"],
-#     [".",".",".",".","8",".",".","7","9"]
-# ]
+board = [
+    ["5","3",".",".","7",".",".",".","."],
+    ["6",".",".","1","9","5",".",".","."],
+    [".","9","8",".",".",".",".","6","."],
+    ["8",".",".",".","6",".",".",".","3"],
+    ["4",".",".","8",".","3",".",".","1"],
+    ["7",".",".",".","2",".",".",".","6"],
+    [".","6",".",".",".",".","2","8","."],
+    [".",".",".","4","1","9",".",".","5"],
+    [".",".",".",".","8",".",".","7","9"]
+]
 
-# print(is_valid_sudoku(board))
+print(is_valid_sudoku(board))
 
 """8. Library Management System
 Using OOP:

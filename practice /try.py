@@ -1,323 +1,321 @@
-# # #1.the tip calculator
+#1.the tip calculator
 
-# # #float() use for convert string into number
-# # # bill_amount = float(input("Enter your amount :"))
-# # # tip_per = float(input("Enter percentage :"))
-# # # tip_amount = bill_amount *(tip_per/100)
-# # # total_amount = bill_amount + tip_amount
-# # # print("your tip amount is :",total_amount)
+#float() use for convert string into number
+bill_amount = float(input("Enter your amount :"))
+tip_per = float(input("Enter percentage :"))
+tip_amount = bill_amount *(tip_per/100)
+total_amount = bill_amount + tip_amount
+print("your tip amount is :",total_amount)
 
-# # #2
-# # # first_name = input("Enter your name")
-# # # last_name = input("Enter your last name")
-# # # age = input("Ente your age")
-# # # print("your Full Name is",first_name, last_name, "and your age is", age)
+#2
+first_name = input("Enter your name")
+last_name = input("Enter your last name")
+age = input("Ente your age")
+print("your Full Name is",first_name, last_name, "and your age is", age)
 
-# # #3
-# # # age = int(input("Enter your age :"))
-# # # if age >=18:
-# # #     print("You can access to watch movie ")
-# # # else:
-# # #     print("You can't access to watch movie")    
+#3
+age = int(input("Enter your age :"))
+if age >=18:
+    print("You can access to watch movie ")
+else:
+    print("You can't access to watch movie")    
 
-# # #4 The Simple To-Do List
-# # # task = ["Sujan" ,"jamuna","muna" , "anju"]
-# # # print("print first index" ,task[0])
-# # # add_task = input("Enter your new task ")
-# # # task.append(add_task)
-# # # print(task)
+#4 The Simple To-Do List
+task = ["Sujan" ,"jamuna","muna" , "anju"]
+print("print first index" ,task[0])
+add_task = input("Enter your new task ")
+task.append(add_task)
+print(task)
 
-# # #5 The Mini-Market Checkout
-# # # items = ["milk", "bread","egges"]
-# # # print("welcome to the shops")
-# # # p1 = float(input(f"Enter price for {items[0]}: "))
-# # # p2 = float(input(f"Enter price for {items[1]}: "))
-# # # p3 = float(input(f"Enter price for {items[2]}: "))
-# # # total = p1 + p2 + p3
-# # # if total >=500:
-# # #     print("You spent a lot today! Total:",total)
-# # # else:
-# # #     print("Budget friendly! Total:",total)
+#5 The Mini-Market Checkout
+items = ["milk", "bread","egges"]
+print("welcome to the shops")
+p1 = float(input(f"Enter price for {items[0]}: "))
+p2 = float(input(f"Enter price for {items[1]}: "))
+p3 = float(input(f"Enter price for {items[2]}: "))
+total = p1 + p2 + p3
+if total >=500:
+    print("You spent a lot today! Total:",total)
+else:
+    print("Budget friendly! Total:",total)
 
-# # # your_name = input("Enter your name :")
-# # # your_address = input("Enter your Address :")
-# # # age = int(input("Enter your age :"))
-# # # # print("my name is ", your_name,"i live at ",your_address, "i am ",age,"year old")
-# # # print(f"my name is {your_name} i lived at {your_address} i am {age} year old")
+your_name = input("Enter your name :")
+your_address = input("Enter your Address :")
+age = int(input("Enter your age :"))
+print("my name is ", your_name,"i live at ",your_address, "i am ",age,"year old")
+print(f"my name is {your_name} i lived at {your_address} i am {age} year old")
 
-# # #for loop
-# # # f = ["sujan" ,"sudip","suman"]
-# # # for i in f:
-# # #     print(f"hello {i}")
-# # #range 
-# # # for i in range(4):
-# # #     print(f"print {i}")
+#for loop
+f = ["sujan" ,"sudip","suman"]
+for i in f:
+    print(f"hello {i}")
+range 
+for i in range(4):
+    print(f"print {i}")
 
-# # #Day 2 Challenge
-# # #The Automated Bill Generator
-# # # items = ["banna", "mango","orange","apple"]
-# # # total_bill = 0
-# # # for i in items:
-# # #     price = int(input(f"Enter the price of {i} :"))
-# # #     total_bill += price
-# # #     print("-" * 10)
-# # #     print(f"your total bill is : {total_bill}")
+#Day 2 Challenge
+# The Automated Bill Generator
+items = ["banna", "mango","orange","apple"]
+total_bill = 0
+for i in items:
+    price = int(input(f"Enter the price of {i} :"))
+    total_bill += price
+    print("-" * 10)
+    print(f"your total bill is : {total_bill}")
     
 
-# # # prices = [100, 550, 20, 800, 150]
-# # # add_price = int(input("Enter "))
-# # # prices.append(add_price)
-# # # expensive_count = 0
-# # # for x in prices:
-# # #     if x>500 :
-# # #         print(f"{x} expensive ")
-# # #         expensive_count +=1
-# # #     else:
-# # #         print(f"{x} is cheap")
+prices = [100, 550, 20, 800, 150]
+add_price = int(input("Enter "))
+prices.append(add_price)
+expensive_count = 0
+for x in prices:
+    if x>500 :
+        print(f"{x} expensive ")
+        expensive_count +=1
+    else:
+        print(f"{x} is cheap")
     
-# # #     print(f"Total expensive items found: {expensive_count}")
+    print(f"Total expensive items found: {expensive_count}")
     
-# # #list
+#list
     
-# # # names = ["sujan", "ram", "manoj", "ram", "hari"]
-# # # names.remove("ram")
-# # # names[1] = "shyam"
-# # # print(names)
+names = ["sujan", "ram", "manoj", "ram", "hari"]
+names.remove("ram")
+names[1] = "shyam"
+print(names)
 
-# # # numbers = [10, 45, 23, 89, 67, 89, 34]
-# # # numbers.sort()
-# # # print(numbers[-2])
+numbers = [10, 45, 23, 89, 67, 89, 34]
+numbers.sort()
+print(numbers[-2])
 
-# # # a = [3, 1, 5]
-# # # b = [6, 2, 4]
-# # # c = a+b
-# # # c.sort(reverse=True)
-# # # print(c)
+a = [3, 1, 5]
+b = [6, 2, 4]
+c = a+b
+c.sort(reverse=True)
+print(c)
 
-# # # words = ["Python", "is", "fun"]
-# # # result = "->".join(words)
-# # # print(result)
+words = ["Python", "is", "fun"]
+result = "->".join(words)
+print(result)
 
-# # # words = ["apple", "banana", "kiwi", "watermelon"]
-# # # a= (max(words,key=len))
-# # # b= (min(words,key=len))
-# # # print(f"max value: {a}\t {len(a)} (charecter) \n min value:{b} \t {len(b)} (charecter)")
+words = ["apple", "banana", "kiwi", "watermelon"]
+a= (max(words,key=len))
+b= (min(words,key=len))
+print(f"max value: {a}\t {len(a)} (charecter) \n min value:{b} \t {len(b)} (charecter)")
 
-# # # user_input = input("Enter something")
-# # # print(user_input.replace("a","").replace("e",""))
-# # # input = input("enter")
-# # # b = input.lower().replace(" ","")
-# # # print(b==b[::-1])
+user_input = input("Enter something")
+print(user_input.replace("a","").replace("e",""))
+input = input("enter")
+b = input.lower().replace(" ","")
+print(b==b[::-1])
 
-# # # paragraph = "The quick brown fox jumps over the lazy dog. The dog was not that lazy, really."
-# # # input_u = input("enter your ")
-# # # print(paragraph.lower().count(input_u))
-# # # input_user = input("Enter your words")
-# # # print(input_user.count("a")+input_user.count("e")+input_user.count("i"))
+paragraph = "The quick brown fox jumps over the lazy dog. The dog was not that lazy, really."
+input_u = input("enter your ")
+print(paragraph.lower().count(input_u))
+input_user = input("Enter your words")
+print(input_user.count("a")+input_user.count("e")+input_user.count("i"))
 
-# # # input_user = input("Enter")
-# # # start = input_user.index("(")
-# # # end = input_user.index(")")
-# # # print(input_user[ :start-1]+input_user[end+1: ])
+input_user = input("Enter")
+start = input_user.index("(")
+end = input_user.index(")")
+print(input_user[ :start-1]+input_user[end+1: ])
 
-# # # user_name = input("Enter username")
-# # # user_pass = input("Enter your pass")
-# # # len_pass = len(user_pass)
-# # # print(f"your username : {user_name}\nyour password{len_pass*"*"} ")
+user_name = input("Enter username")
+user_pass = input("Enter your pass")
+len_pass = len(user_pass)
+print(f"your username : {user_name}\nyour password{len_pass*"*"} ")
 
-# # # user_input = input("enter your input ")
-# # # b = user_input.replace("bad","good")
-# # # print(b)
+user_input = input("enter your input ")
+b = user_input.replace("bad","good")
+print(b)
 
-# # # user_input = input("user input ")
-# # # b = user_input.strip(".")
-# # # print(b)
+user_input = input("user input ")
+b = user_input.strip(".")
+print(b)
 
-# # # name = input("enter your username :")
-# # # domain = input("enter your domain :")
-# # # b = name +"@"+ domain
-# # # print(f"your gmail: {b}")
-# # # # c = b.lower().removesuffix("@gmail.com")
-# # # # print(c)
-# # # c = b.lower().split("@")
-# # # print(f"your username: {c[0]}")
+name = input("enter your username :")
+domain = input("enter your domain :")
+b = name +"@"+ domain
+print(f"your gmail: {b}")
+# c = b.lower().removesuffix("@gmail.com")
+# print(c)
+c = b.lower().split("@")
+print(f"your username: {c[0]}")
 
-# # # user_input = input("Enter your input: ")
-# # # b = user_input.replace(" ","_")
-# # # print(f"Final Result : {b}")
+user_input = input("Enter your input: ")
+b = user_input.replace(" ","_")
+print(f"Final Result : {b}")
 
-# # #list
-# # # Input =" my name is sujan lama"
-# # # b = Input.split()
-# # # print(len(b))
+#list
+Input =" my name is sujan lama"
+b = Input.split()
+print(len(b))
 
-# # # Input = "Hello World! Python is awesome"
-# # # b = Input.split()
-# # # c=(Input[::-1])
-# # # d = " ".join(c)
-# # # print(d)
+Input = "Hello World! Python is awesome"
+b = Input.split()
+c=(Input[::-1])
+d = " ".join(c)
+print(d)
 
-# # # Input = [4, 5, 1, 4, 2, 3, 8, 9, 11, 55, 0, 9]
-# # # b = sorted(Input)
-# # # print(b[-2])
+Input = [4, 5, 1, 4, 2, 3, 8, 9, 11, 55, 0, 9]
+b = sorted(Input)
+print(b[-2])
 
-# # # Input = "Learning Python is really enjoyable"
-# # # b = Input.split()
-# # # print(max(b,key=len))
+Input = "Learning Python is really enjoyable"
+b = Input.split()
+print(max(b,key=len))
 
-# # # Input = [1, 2, 3, 4]
-# # # k = int(input("Enter "))
-# # # b = (Input[-k:])
-# # # c = (Input[:-k])
-# # # print(b+c)
-# # #loops
-# # #while loop
-# # # count = 1
-# # # while count<=5:
-# # #     print("hello sujan",count)
-# # #     count  +=1
-# # # print(count)
+Input = [1, 2, 3, 4]
+k = int(input("Enter "))
+b = (Input[-k:])
+c = (Input[:-k])
+print(b+c)
+# loops
+# while loop
+count = 1
+while count<=5:
+    print("hello sujan",count)
+    count  +=1
+print(count)
 
-# # """print 1 to 100 using while loop"""
-# # # i = 1
-# # # while i<=100:
-# # #     print(i)
-# # #     i +=1
-# # # print("loops end")
+"""print 1 to 100 using while loop"""
+i = 1
+while i<=100:
+    print(i)
+    i +=1
+print("loops end")
 
-# # """print from 100 to 1 using while loop"""
-# # # i = 100
-# # # while i>=1:
-# # #     print(i)
-# # #     i -=1
+"""print from 100 to 1 using while loop"""
+i = 100
+while i>=1:
+    print(i)
+    i -=1
 
-# # # i = 1
-# # # n = int(input("Enter you want mul :"))
-# # # print(f"Multiplication of {n}........")
-# # # while i<=10:
-# # #     mul = n*i
-# # #     print(f"{n} * {i} = {mul}")
-# # #     i +=1
+i = 1
+n = int(input("Enter you want mul :"))
+print(f"Multiplication of {n}........")
+while i<=10:
+    mul = n*i
+    print(f"{n} * {i} = {mul}")
+    i +=1
 
-# # # num = [1,4,9,16,25,36,49,64,81,100]
-# # # i = 0 
-# # # while i<len(num):
-# # #     print (num[i])
-# # #     i +=1
+num = [1,4,9,16,25,36,49,64,81,100]
+i = 0 
+while i<len(num):
+    print (num[i])
+    i +=1
 
-# # # leap_year = int(input("Enter your year"))
+leap_year = int(input("Enter your year"))
 
-# # # if leap_year%400 ==0:
-# # #     print("This is leap year")
-# # # else:
-# # #     print("This is not leap year")
+if leap_year%400 ==0:
+    print("This is leap year")
+else:
+    print("This is not leap year")
 
-# # # a = [1,2,3,4,5]
-# # # print(a[::-1])
+a = [1,2,3,4,5]
+print(a[::-1])
     
-
-
-# # # a = [1,2,3,4,5]
-# # # b =[5,4,3,2,1]
-# # # c = []
-# # # for i  in range(5):
-# # #     c.append(a[i]+b[i]) 
-# # # print(c,end=" ")
+a = [1,2,3,4,5]
+b =[5,4,3,2,1]
+c = []
+for i  in range(5):
+    c.append(a[i]+b[i]) 
+print(c,end=" ")
     
 
-# # # collection = ["sujan", "malayalam","madam",121]
-# # # pal = []
-# # # for i in collection:
-# # #     num = str(i)
-# # #     if num ==num[::-1]:
-# # #         if num.isdigit():
-# # #             pal.append(int(num))
-# # #         else:
-# # #             pal.append(num)
-# # # print(pal)
+collection = ["sujan", "malayalam","madam",121]
+pal = []
+for i in collection:
+    num = str(i)
+    if num ==num[::-1]:
+        if num.isdigit():
+            pal.append(int(num))
+        else:
+            pal.append(num)
+print(pal)
 
-# # #Write a function student() that takes:
+#Write a function student() that takes:
 
-# # # def student(name,age):
-# # #     print(f"your name is {name} and age is {age}")
+def student(name,age):
+    print(f"your name is {name} and age is {age}")
     
-# # # student("sujan lama",23)
+student("sujan lama",23)
 
-# # '''#Create a function book() with:
-# # title
-# # price
-# # Call the function using keyword arguments.'''
+'''#Create a function book() with:
+title
+price
+Call the function using keyword arguments.'''
 
-# # # def book(title,price):
-# # #     print(f"title of book is {title} and price is {price}")
+def book(title,price):
+    print(f"title of book is {title} and price is {price}")
     
-# # # book(title="your dad",price=4000)
-# # '''3. Default Argument
-# # Create a function country() with:
-# # name
-# # country="Nepal"
-# # If country is not given, it should print Nepal.
-# # '''
+book(title="your dad",price=4000)
+'''3. Default Argument
+Create a function country() with:
+name
+country="Nepal"
+If country is not given, it should print Nepal.
+'''
 
-# # # def country(name, age, country="nepal"):
-# # #     print(f'your name is {name} age is {age} and your country name is {country}')
+def country(name, age, country="nepal"):
+    print(f'your name is {name} age is {age} and your country name is {country}')
 
-# # # country(name="suman",age=25,country="USA")
-# # # country(name="sujan",age=23)
+country(name="suman",age=25,country="USA")
+country(name="sujan",age=23)
 
-# # '''4. Positional Arbitrary Argument (*args)
-# # Write a function total() that accepts any number of numbers and prints their sum.'''
+'''4. Positional Arbitrary Argument (*args)
+Write a function total() that accepts any number of numbers and prints their sum.'''
 
-# # # def total(*args):
-# # #     all =0
-# # #     for i in args:
-# # #         all+=i
-# # #     print(f'total {all}')
+def total(*args):
+    all =0
+    for i in args:
+        all+=i
+    print(f'total {all}')
     
-# # # total(1,2,3,4,5,6)
+total(1,2,3,4,5,6)
 
-# # '''Keyword Arbitrary Argument (**kwargs)
-# # Write a function info() that accepts any keyword arguments and prints them.'''
+'''Keyword Arbitrary Argument (**kwargs)
+Write a function info() that accepts any keyword arguments and prints them.'''
 
-# # # def info(**kwargs):
-# # #     print(kwargs)
+def info(**kwargs):
+    print(kwargs)
 
-# # # info(name="sujan",age=23,location="lalitpur",country="nepal")
+info(name="sujan",age=23,location="lalitpur",country="nepal")
 
-# # '''6. Mixed *args and **kwargs
-# # Create a function data() that:
-# # prints all positional arguments
-# # prints all keyword arguments
-# # '''
+'''6. Mixed *args and **kwargs
+Create a function data() that:
+prints all positional arguments
+prints all keyword arguments
+'''
 
-# # # def data(*args,**kwargs):
-# # #     print(args,kwargs)
+def data(*args,**kwargs):
+    print(args,kwargs)
 
-# # # data(1,2,34,56,name="sujan",age=23)
-# # '''7. Find Maximum using *args
-# # Write a function largest() that takes multiple numbers using *args and prints the largest number.
-# # '''
+data(1,2,34,56,name="sujan",age=23)
+'''7. Find Maximum using *args
+Write a function largest() that takes multiple numbers using *args and prints the largest number.
+'''
 
-# # # def largest(*args):
-# # #     print(max(args))
+def largest(*args):
+    print(max(args))
     
-# # # largest(2,3,4,6,7,88,45,55,122)
+largest(2,3,4,6,7,88,45,55,122)
 
-# # '''Employee Salary using **kwargs
-# # Create a function salary() that accepts:
-# # basic
-# # bonus
-# # overtime
-# # travel
-# # using **kwargs and prints total salary.'''
+'''Employee Salary using **kwargs
+Create a function salary() that accepts:
+basic
+bonus
+overtime
+travel
+using **kwargs and prints total salary.'''
 
-# # # def salary(**kwargs):
-# # #     total =0
-# # #     for i in kwargs.values():
-# # #         total+=i
-# # #     print(f"total is {total}")
+def salary(**kwargs):
+    total =0
+    for i in kwargs.values():
+        total+=i
+    print(f"total is {total}")
 
-# # # salary(basic=20000,bonus=2300,overtime=789,travel=5000)
+salary(basic=20000,bonus=2300,overtime=789,travel=5000)
 
 # # '''10. Combination Practice
 # # Write a function:
@@ -327,124 +325,124 @@
 # # print total marks
 # # print extra information'''
 
-# # # def show(name, *marks,**info):
-# # #     print(f'your name is {name}')
-# # #     print(f'from {info}')
-# # #     total_marks=0
-# # #     for i in marks:
-# # #         total_marks+=i
-# # #     print(f'your total marks is {total_marks}')
+def show(name, *marks,**info):
+    print(f'your name is {name}')
+    print(f'from {info}')
+    total_marks=0
+    for i in marks:
+        total_marks+=i
+    print(f'your total marks is {total_marks}')
         
     
-# # # show('sujan',45,55,66,78,90,city='lalitpur')
+show('sujan',45,55,66,78,90,city='lalitpur')
 
-# # '''Bonus Challenge:
-# # Create a calculator function using *args:
-# # calc("+",1,2,3)
-# # calc("*",2,3,4)'''
+'''Bonus Challenge:
+Create a calculator function using *args:
+calc("+",1,2,3)
+calc("*",2,3,4)'''
 
-# # # def calculation(op,*args):
-# # #     if op =="+":
-# # #         total=sum(args)
-# # #         print(total)
-# # #     elif op =="*":
-# # #         mul=1
-# # #         for i in args:
-# # #             mul*=i
-# # #         print(mul)
+def calculation(op,*args):
+    if op =="+":
+        total=sum(args)
+        print(total)
+    elif op =="*":
+        mul=1
+        for i in args:
+            mul*=i
+        print(mul)
             
-# # # calculation("+",1,2,3)
-# # # calculation("*",2,3,4)
+calculation("+",1,2,3)
+calculation("*",2,3,4)
 
-# # #Print numbers from 1 to 100 using a loop.
+#Print numbers from 1 to 100 using a loop.
 
-# # # for i in range(1,100+1):
-# # #     print(i,end=" ")
-# # # i =1
-# # # while i <=100:
-# # #     print(i)
-# # #     i+=1
+for i in range(1,100+1):
+    print(i,end=" ")
+i =1
+while i <=100:
+    print(i)
+    i+=1
 
-# # #Find the sum of all even numbers from 1 to 50.
+#Find the sum of all even numbers from 1 to 50.
 
-# # # total =0
-# # # for i in range(1,100+1):
-# # #     if i%2==0:
-# # #         total+=i 
-# # # print(f'sum of even : {total}')
+total =0
+for i in range(1,100+1):
+    if i%2==0:
+        total+=i 
+print(f'sum of even : {total}')
 
-# # '''Print a star pattern:
-# # *
-# # **
-# # ***
-# # ****'''
-# # # row= 4
+'''Print a star pattern:
+*
+**
+***
+****'''
+row= 4
 
-# # # for i in range(1,row+1):
-# # #     print("*"*i)
+for i in range(1,row+1):
+    print("*"*i)
 
-# # # #Reverse a number using a loop
-# # # for i in range(10,0,-1):
-# # #     print(i)
+#Reverse a number using a loop
+for i in range(10,0,-1):
+    print(i)
     
-# # #Count how many digits are in a number.
+#Count how many digits are in a number.
 
-# # # a=1234
-# # # count =0
-# # # while a!=0:
-# # #     a =a//10
-# # #     count+=1
-# # # print(count)
+a=1234
+count =0
+while a!=0:
+    a =a//10
+    count+=1
+print(count)
 
-# # #Keep taking input until user types "stop".
+#Keep taking input until user types "stop".
 
-# # # while True:
-# # #     user_input = input("Enter words :")
-# # #     if user_input=="stop":
-# # #         break
-# # #     print(f'you enterd {user_input}')
+while True:
+    user_input = input("Enter words :")
+    if user_input=="stop":
+        break
+    print(f'you enterd {user_input}')
 
-# # #Find factorial of a number using loop.
+#Find factorial of a number using loop.
 
-# # # fact = 1
+fact = 1
 
-# # # user_input =int(input("Eneter you want fact :"))
-# # # for i in range(1,user_input+1):
-# # #     fact*=i
+user_input =int(input("Eneter you want fact :"))
+for i in range(1,user_input+1):
+    fact*=i
     
-# # # print(fact) 
+print(fact) 
 
-# # #Print all prime numbers between 1 and 100.
+# #Print all prime numbers between 1 and 100.
 
-# # # for i in range(2,100+1):
-# # #     is_prime = True
-# # #     for num in range(2,i):
-# # #         if i%num==0:
-# # #             is_prime=False
-# # #             break
-# # #     if is_prime:
-# # #         print(i)
+for i in range(2,100+1):
+    is_prime = True
+    for num in range(2,i):
+        if i%num==0:
+            is_prime=False
+            break
+    if is_prime:
+        print(i)
 
-# # #Find the largest number in a list using loop only.
-# # # num =[2,3,5,66,77,34]
-# # # lagr =num[0]
-# # # for i in num:
-# # #     if i>lagr:
-# # #         lagr=i
-# # # print(lagr)
+#Find the largest number in a list using loop only.
+num =[2,3,5,66,77,34]
+lagr =num[0]
+for i in num:
+    if i>lagr:
+        lagr=i
+print(lagr)
 
-# # #Create a function to add two numbers.
+# Create a function to add two numbers.
 
-# # # def sum(op,*args):
-# # #     total = 0
-# # #     for i in args:
-# # #         if op=="+":
-# # #             total+=i
-# # #     print(total)
+def sum(op,*args):
+    total = 0
+    for i in args:
+        if op=="+":
+            total+=i
+    print(total)
 
-# # # sum("+",1,2,3,4)
+sum("+",1,2,3,4)
 
-# # #Create a function to check even or odd.
+#Create a function to check even or odd.
 
 # # # def odd_even(num):
 # # #     if num%2==0:
@@ -1029,4 +1027,6 @@ ob.check_balance(1111)
             
             
         
-
+a = ['nepal','india','apple']
+b = ['sujan', 'rohan','anjan','anju']
+print(sorted(b))

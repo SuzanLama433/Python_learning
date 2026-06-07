@@ -55,3 +55,20 @@ Replace `main` with your branch name if different. Pushing may prompt for creden
 
 ---
 Created for easy navigation and quick demos.
+
+## Repository
+
+This repository is hosted at: https://github.com/SuzanLama433/Python_learning
+
+README last updated: 2026-06-07.
+
+## Recommended .gitignore
+
+This project contains a local `venv/` folder. It's recommended to add a `.gitignore` file including at least:
+
+- `venv/`
+- `__pycache__/`
+- `*.pyc`
+- `.DS_Store`
+
+You can create a `.gitignore` at the repo root and commit it to avoid pushing virtualenv and cache files.

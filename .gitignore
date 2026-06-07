@@ -1,0 +1,9 @@
+# Python virtualenv and caches
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# IDE folders
+.vscode/
+.idea/

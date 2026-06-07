@@ -10,9 +10,9 @@ methods(function associated with class) within a sigle unit.
 #To achieve Encapuslation, We use access modifier and proporty decorator(**access modifier)
 
 TYPES of access modifier:
-1.⁠ ⁠Public accessor: The attribute and method are accessible outside the class(default)
-2.⁠ ⁠Private accessor : The attribute and method are accessible on;y within that class
-3.⁠ ⁠protected accessor: The attributes and method are accessible only with in that class and subclass '''
+1.Public accessor: The attribute and method are accessible outside the class(default)
+2.Private accessor : The attribute and method are accessible on;y within that class
+3.protected accessor: The attributes and method are accessible only with in that class and subclass '''
 
 # public accessor 
 # class Student:
